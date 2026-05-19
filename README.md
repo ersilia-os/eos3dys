@@ -2,6 +2,7 @@
 
 Array of bioactivity ML models based on the CoADD data. We have built individual models for each organism and strain for which sufficient data (>100 compounds) is available. Additional cytotoxicity models have also been included. Cut-offs for binary activity are determined at 50% for percentage of inhibition and 25 uM for dose-response assays. All models achieved an AUROC > 0.7 using the LazyQSAR package. Detailed analysis is available in this [repository](https://github.com/ersilia-os/coadd-binary-tasks)
 
+This model was incorporated on 2026-05-19.
 
 
 ## Information
@@ -36,8 +37,8 @@ Below are the **Output Columns** of the model:
 | cglabrata_ATCC90030_mic_25 | float | high | Classification score (rank) for bioactivity in Candida glabrata ATCC90030 |
 | cneoformans_H99_inhib_50 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
 | cneoformans_H99_mic_25 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
+| cytotoxicity_ic50 | float | high | Classification score (rank) for cytotoxicity in human cell lines |
 | ecoli_ATCC25922_inhib_50 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
-| ecoli_ATCC25922_mic_25 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
 
 _10 of 22 columns are shown_
 ### Source and Deployment
