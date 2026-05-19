@@ -53,9 +53,9 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos3dys
 Docker Architecture: AMD64
 Model Size: 600.0
 Environment Size: 6231.0
-Image Size: 7615.14
-Computational Performance 1: 111.9
-Computational Performance 2: 83.28
-Computational Performance 3: 102.38
-Computational Performance 4: 408.82
-Computational Performance 5: 1727.05
+Image Size: 7468.04
+Computational Performance 1: 61.72
+Computational Performance 2: 53.39
+Computational Performance 3: 59.76
+Computational Performance 4: 353.74
+Computational Performance 5: 1705.77
