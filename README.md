@@ -50,12 +50,12 @@ _10 of 22 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `600`
 - **Environment Size (Mb):** `6231`
-- **Image Size (Mb):** `7615.14`
+- **Image Size (Mb):** `7468.04`
 
 **Computational Performance (seconds):**
-- 10 inputs: `111.9`
-- 100 inputs: `102.38`
-- 10000 inputs: `1727.05`
+- 10 inputs: `61.72`
+- 100 inputs: `59.76`
+- 10000 inputs: `1705.77`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/coadd-binary-tasks](https://github.com/ersilia-os/coadd-binary-tasks)
