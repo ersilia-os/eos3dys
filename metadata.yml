@@ -1,33 +1,37 @@
-Identifier: eos0aaa
-Slug: template-model
+Identifier: eos3dys
+Slug: coadd-antimicrobial-activity
 Status: In progress
-Title: This is a template model
-Description: |
-  This is a description of the template model.
-  You can use multiple lines in this description.
+Title: CoADD antimicrobial prediction
+Description: Array of ML models based on the CoADD data. We have built 
+  individual models for each organism and strain for which sufficient data (>100
+  compounds) is available. Additional cytotoxicity models have also been added. 
+  Cut-offs for binary activity are determined at 50% for percentage of 
+  inhibition and 25 uM for dose-response assays. All models achieved an AUROC > 
+  0.7 using the LazyQSAR package. Detailed analysis is available in this 
+  [repository](https://github.com/ersilia-os/coadd-binary-tasks)
 Deployment:
   - Local
   - Online
 Source: Local, Online
 Source Type: Internal, Replicated, External
 Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation
-Input: 
+Subtask: Property calculation or prediction, Activity prediction, Featurization,
+  Projection, Similarity search, Generation
+Input:
   - Compound
 Input Dimension: 1
-Output: 
+Output:
   - Value
   - Score
   - Compound
   - Text
 Output Dimension: 1
 Output Consistency: Fixed, Variable
-Interpretation: |
-  The output of this template model should be interpreted like this.
+Interpretation: The output of this template model should be interpreted like 
+  this.
 Tag:
-  - Tag 1
-  - Tag 2
-  - Tag 3
+  - Antimicrobial activity
+  - ESKAPE
 Biomedical Area:
   - Biomedical Area 1
   - Biomedical Area 2
@@ -36,6 +40,7 @@ Target Organism:
   - Target Organism 2
 Publication Type: Peer reviewed, Preprint, Other
 Publication Year: 2025
-Publication: https://example.com
-Source Code: https://example.com
-License: GPL-3.0-or-later, MIT, Apache-2.0...
+Publication: https://co-add.org
+Source Code: https://github.com/ersilia-os/coadd-binary-tasks
+License: GPL-3.0-only
+Contributor: GemmaTuron
