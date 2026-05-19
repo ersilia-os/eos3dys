@@ -2,44 +2,44 @@ Identifier: eos3dys
 Slug: coadd-antimicrobial-activity
 Status: In progress
 Title: CoADD antimicrobial prediction
-Description: Array of ML models based on the CoADD data. We have built 
+Description: Array of bioactivity ML models based on the CoADD data. We have built 
   individual models for each organism and strain for which sufficient data (>100
-  compounds) is available. Additional cytotoxicity models have also been added. 
+  compounds) is available. Additional cytotoxicity models have also been included. 
   Cut-offs for binary activity are determined at 50% for percentage of 
   inhibition and 25 uM for dose-response assays. All models achieved an AUROC > 
   0.7 using the LazyQSAR package. Detailed analysis is available in this 
   [repository](https://github.com/ersilia-os/coadd-binary-tasks)
 Deployment:
   - Local
-  - Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization,
-  Projection, Similarity search, Generation
+Source: Local
+Source Type: Internal
+Task: Annotation
+Subtask: Activity prediction
 Input:
   - Compound
 Input Dimension: 1
 Output:
-  - Value
   - Score
-  - Compound
-  - Text
-Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: The output of this template model should be interpreted like 
-  this.
+Output Dimension: 22
+Output Consistency: Fixed
+Interpretation: Classification score (rank) for pathogen inhibition, with higher scores indicating stronger predicted activity.
 Tag:
   - Antimicrobial activity
   - ESKAPE
 Biomedical Area:
-  - Biomedical Area 1
-  - Biomedical Area 2
+  - Antimicrobial resistance
 Target Organism:
-  - Target Organism 1
-  - Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
-Publication Year: 2025
+  - Acinetobacter baumannii
+  - Candida albicans
+  - Klebsiella pneumoniae
+  - Pseudomonas aeruginosa
+  - Staphylococcus aureus
+  - Cryptococcus neoformans
+  - Candida glabrata
+  - Cryptococcus deuterogattii
+  - Homo sapiens
+Publication Type:  Other
+Publication Year: 2026
 Publication: https://co-add.org
 Source Code: https://github.com/ersilia-os/coadd-binary-tasks
 License: GPL-3.0-only

@@ -1,1 +1,23 @@
 name,type,direction,description
+abaumannii_ATCC19606_inhib_50,float,high,Classification score (rank) for bioactivity in Acinetobacter baumannii ATCC19606
+abaumannii_ATCC19606_mic_25,float,high,Classification score (rank) for bioactivity in Acinetobacter baumannii ATCC19606
+calbicans_ATCC90028_inhib_50,float,high,Classification score (rank) for bioactivity in Candida albicans ATCC90028
+calbicans_ATCC90028_mic_25,float,high,Classification score (rank) for bioactivity in Candida albicans ATCC90028
+cdeuterogattii_CBS7750_mic_25,float,high,Classification score (rank) for bioactivity in Cryptococcus deuterogattii CBS7750
+cglabrata_ATCC90030_mic_25,float,high,Classification score (rank) for bioactivity in Candida glabrata ATCC90030
+cneoformans_H99_inhib_50,float,high,Classification score (rank) for bioactivity in Cryptococcus neoformans H99
+cneoformans_H99_mic_25,float,high,Classification score (rank) for bioactivity in Cryptococcus neoformans H99
+ecoli_ATCC25922_inhib_50,float,high,Classification score (rank) for bioactivity in Escherichia coli ATCC25922
+ecoli_ATCC25922_mic_25,float,high,Classification score (rank) for bioactivity in Escherichia coli ATCC25922
+ecoli_lpxC_inhib_50,float,high,Classification score (rank) for bioactivity in Escherichia coli lpxC
+ecoli_tolC_inhib_50,float,high,Classification score (rank) for bioactivity in Escherichia coli tolC
+kpneumoniae_ATCC700603_inhib_50,float,high,Classification score (rank) for bioactivity in Klebsiella pneumoniae ATCC700603
+kpneumoniae_ATCC700603_mic_25,float,high,Classification score (rank) for bioactivity in Klebsiella pneumoniae ATCC700603
+paeruginosa_ATCC27853_inhib_50,float,high,Classification score (rank) for bioactivity in Pseudomonas aeruginosa ATCC27853
+paeruginosa_ATCC27853_mic_25,float,high,Classification score (rank) for bioactivity in Pseudomonas aeruginosa ATCC27853
+paeruginosa_PAO397_inhib_50,float,high,Classification score (rank) for bioactivity in Pseudomonas aeruginosa PAO397
+paeruginosa_PAO397_mic_25,float,high,Classification score (rank) for bioactivity in Pseudomonas aeruginosa PAO397
+saureus_ATCC43300_inhib_50,float,high,Classification score (rank) for bioactivity in Staphylococcus aureus ATCC43300
+saureus_ATCC43300_mic_25,float,high,Classification score (rank) for bioactivity in Staphylococcus aureus ATCC43300
+cytotoxicity_ic50,float,high,Classification score (rank) for cytotoxicity in human cell lines
+hemolitic_activity,float,high,Classification score (rank) for hemolytic activity (10% lysis of human red blood cells)
