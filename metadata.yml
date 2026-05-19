@@ -1,6 +1,6 @@
 Identifier: eos3dys
 Slug: coadd-antimicrobial-activity
-Status: In progress
+Status: Ready
 Title: CoADD antimicrobial prediction
 Description: Array of bioactivity ML models based on the CoADD data. We have 
   built individual models for each organism and strain for which sufficient data
@@ -46,6 +46,16 @@ Source Code: https://github.com/ersilia-os/coadd-binary-tasks
 License: GPL-3.0-only
 Contributor: GemmaTuron
 Incorporation Date: '2026-05-19'
+Last Packaging Date: '2026-05-19'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3dys.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos3dys
+Docker Architecture: AMD64
 Model Size: 600.0
 Environment Size: 6681.0
+Image Size: 7615.14
+Computational Performance 1: 111.9
+Computational Performance 2: 83.28
+Computational Performance 3: 102.38
+Computational Performance 4: 408.82
+Computational Performance 5: 1727.05
