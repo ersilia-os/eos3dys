@@ -2,8 +2,7 @@
 
 Array of bioactivity ML models based on the CoADD data. We have built individual models for each organism and strain for which sufficient data (>100 compounds) is available. Additional cytotoxicity models have also been included. Cut-offs for binary activity are determined at 50% for percentage of inhibition and 25 uM for dose-response assays. All models achieved an AUROC > 0.7 using the LazyQSAR package. Detailed analysis is available in this [repository](https://github.com/ersilia-os/coadd-binary-tasks)
 
-This model was incorporated on 2026-05-19.
-
+This model was incorporated on 2026-05-19.Last packaged on 2026-05-19.
 
 ## Information
 ### Identifiers
@@ -44,12 +43,19 @@ _10 of 22 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3dys](https://hub.docker.com/r/ersiliaos/eos3dys)
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3dys.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3dys.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `600`
 - **Environment Size (Mb):** `6681`
+- **Image Size (Mb):** `7615.14`
 
+**Computational Performance (seconds):**
+- 10 inputs: `111.9`
+- 100 inputs: `102.38`
+- 10000 inputs: `1727.05`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/coadd-binary-tasks](https://github.com/ersilia-os/coadd-binary-tasks)
