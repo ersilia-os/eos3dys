@@ -2,10 +2,10 @@ Identifier: eos3dys
 Slug: coadd-antimicrobial-activity
 Status: In progress
 Title: CoADD antimicrobial prediction
-Description: Array of bioactivity ML models based on the CoADD data. We have built 
-  individual models for each organism and strain for which sufficient data (>100
-  compounds) is available. Additional cytotoxicity models have also been included. 
-  Cut-offs for binary activity are determined at 50% for percentage of 
+Description: Array of bioactivity ML models based on the CoADD data. We have 
+  built individual models for each organism and strain for which sufficient data
+  (>100 compounds) is available. Additional cytotoxicity models have also been 
+  included. Cut-offs for binary activity are determined at 50% for percentage of
   inhibition and 25 uM for dose-response assays. All models achieved an AUROC > 
   0.7 using the LazyQSAR package. Detailed analysis is available in this 
   [repository](https://github.com/ersilia-os/coadd-binary-tasks)
@@ -22,7 +22,8 @@ Output:
   - Score
 Output Dimension: 22
 Output Consistency: Fixed
-Interpretation: Classification score (rank) for pathogen inhibition, with higher scores indicating stronger predicted activity.
+Interpretation: Classification score (rank) for pathogen inhibition, with higher
+  scores indicating stronger predicted activity.
 Tag:
   - Antimicrobial activity
   - ESKAPE
@@ -38,9 +39,10 @@ Target Organism:
   - Candida glabrata
   - Cryptococcus deuterogattii
   - Homo sapiens
-Publication Type:  Other
+Publication Type: Other
 Publication Year: 2026
 Publication: https://co-add.org
 Source Code: https://github.com/ersilia-os/coadd-binary-tasks
 License: GPL-3.0-only
 Contributor: GemmaTuron
+Incorporation Date: '2026-05-19'
