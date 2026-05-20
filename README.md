@@ -36,8 +36,8 @@ Below are the **Output Columns** of the model:
 | cglabrata_ATCC90030_mic_25 | float | high | Classification score (rank) for bioactivity in Candida glabrata ATCC90030 |
 | cneoformans_H99_inhib_50 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
 | cneoformans_H99_mic_25 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
-| cytotoxicity_ic50 | float | high | Classification score (rank) for cytotoxicity in human cell lines |
 | ecoli_ATCC25922_inhib_50 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
+| ecoli_ATCC25922_mic_25 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
 
 _10 of 22 columns are shown_
 ### Source and Deployment
