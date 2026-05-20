@@ -1,4 +1,5 @@
 # imports
+import csv
 import os
 import sys
 import numpy as np
@@ -17,8 +18,14 @@ checkpoints = os.path.abspath(os.path.join(root, "..", "..", "checkpoints"))
 # read SMILES from .csv file, assuming one column with header
 _, smiles_list = read_smiles(input_file)
 
+# build ordered model dict from run_columns.csv
+columns_file = os.path.abspath(os.path.join(root, "..", "columns", "run_columns.csv"))
+with open(columns_file) as f:
+    reader = csv.DictReader(f)
+    model_dir = {row["name"]: os.path.join(checkpoints, row["name"]) for row in reader}
+
 # run model
-outputs, header = predict(checkpoints, smiles=smiles_list, predict_type="rank")
+outputs, header = predict(model_dir, smiles=smiles_list, predict_type="rank")
 
 # check input and output have the same length
 assert len(smiles_list) == len(outputs)
