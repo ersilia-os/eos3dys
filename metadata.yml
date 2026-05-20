@@ -52,7 +52,7 @@ S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3dys.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3dys
 Docker Architecture: AMD64
 Model Size: 600.0
-Environment Size: 6231.0
+Environment Size: 1888.0
 Image Size: 7468.04
 Computational Performance 1: 61.72
 Computational Performance 2: 53.39
