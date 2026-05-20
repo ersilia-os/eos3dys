@@ -1,5 +1,5 @@
 python: "3.12"
 commands:
     - ["pip", "ersilia-pack-utils", "0.1.5"]
-    - ["pip", "lazyqsar[descriptors]", "3.3.0"]
-    - "lazyqsar setup --descriptors --cpu-torch"
+    - ["pip", "lazyqsar", "3.3.0"]
+    - "lazyqsar setup --descriptors"
