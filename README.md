@@ -1,6 +1,6 @@
 This model has been financed by Project PID2023-148309OA-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF, EU.
 
-<img width="2300" alt="MICIU+Cofinanciado+AEI" src="https://github.com/user-attachments/assets/aa3c3ed0-1eda-47fe-a7cb-478c4e3839a6" />
+<img width="300" alt="MICIU+Cofinanciado+AEI" src="https://github.com/user-attachments/assets/aa3c3ed0-1eda-47fe-a7cb-478c4e3839a6" />
 
 # CoADD antimicrobial prediction
 
