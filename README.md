@@ -1,5 +1,7 @@
 This model has been financed by Project PID2023-148309OA-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF, EU.
-<img width="200" alt="MICIU+Cofinanciado+AEI" src="https://github.com/user-attachments/assets/aa3c3ed0-1eda-47fe-a7cb-478c4e3839a6" />
+
+<img width="2300" alt="MICIU+Cofinanciado+AEI" src="https://github.com/user-attachments/assets/aa3c3ed0-1eda-47fe-a7cb-478c4e3839a6" />
+
 # CoADD antimicrobial prediction
 
 Array of bioactivity ML models based on the CoADD data. We have built individual models for each organism and strain for which sufficient data (>100 compounds) is available. Additional cytotoxicity models have also been included. Cut-offs for binary activity are determined at 50% for percentage of inhibition and 25 uM for dose-response assays. All models achieved an AUROC > 0.7 using the LazyQSAR package. Detailed analysis is available in this [repository](https://github.com/ersilia-os/coadd-binary-tasks)
