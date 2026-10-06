@@ -1,5 +1,6 @@
 python: "3.12"
 commands:
     - ["pip", "ersilia-pack-utils", "0.1.5"]
-    - ["pip", "lazyqsar", "3.3.0"]
-    - "lazyqsar setup --descriptors"
+    - ["pip", "torch", "2.6.0", "--index-url", "https://download.pytorch.org/whl/cpu"]
+    - ["pip", "lazyqsar[all]", "3.6.1"]
+    - "lazyqsar setup --descriptors --only chemeleon,clamp"

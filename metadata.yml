@@ -6,8 +6,8 @@ Description: Scores compounds across 22 antimicrobial and cytotoxicity endpoints
   from the Community for Open Antimicrobial Drug Discovery screening collection. Ersilia
   trained a separate model for every organism and strain with at least 100 measured
   compounds, plus cytotoxicity readouts, binarising activity at 50% growth inhibition
-  for single-point assays and 25 uM for dose-response. All models reached an AUROC
-  above 0.7 in cross-validation using the LazyQSAR package.
+  for single-point assays and 25 uM for dose-response. Models reached an AUROC
+  between 0.64 and 0.97 in 5-fold cross-validation using the LazyQSAR package.
 Deployment:
   - Local
 Source: Local
