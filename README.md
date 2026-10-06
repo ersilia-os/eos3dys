@@ -1,10 +1,6 @@
-This model has been financed by Project PID2023-148309OA-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF, EU.
-
-<img width="300" alt="MICIU+Cofinanciado+AEI" src="https://github.com/user-attachments/assets/aa3c3ed0-1eda-47fe-a7cb-478c4e3839a6" />
-
 # CoADD antimicrobial prediction
 
-Scores compounds across 22 antimicrobial and cytotoxicity endpoints built from the Community for Open Antimicrobial Drug Discovery screening collection. Ersilia trained a separate model for every organism and strain with at least 100 measured compounds, plus cytotoxicity readouts, binarising activity at 50% growth inhibition for single-point assays and 25 uM for dose-response. All models reached an AUROC above 0.7 in cross-validation using the LazyQSAR package.
+Scores compounds across 22 antimicrobial and cytotoxicity endpoints built from the Community for Open Antimicrobial Drug Discovery screening collection. Ersilia trained a separate model for every organism and strain with at least 100 measured compounds, plus cytotoxicity readouts, binarising activity at 50% growth inhibition for single-point assays and 25 uM for dose-response. Models reached an AUROC between 0.64 and 0.97 in 5-fold cross-validation using the LazyQSAR package.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-05-20.
 
@@ -32,16 +28,16 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-05-20.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| abaumannii_ATCC19606_inhib_50 | float | high | Classification score (rank) for bioactivity in Acinetobacter baumannii ATCC19606 |
-| abaumannii_ATCC19606_mic_25 | float | high | Classification score (rank) for bioactivity in Acinetobacter baumannii ATCC19606 |
-| calbicans_ATCC90028_inhib_50 | float | high | Classification score (rank) for bioactivity in Candida albicans ATCC90028 |
-| calbicans_ATCC90028_mic_25 | float | high | Classification score (rank) for bioactivity in Candida albicans ATCC90028 |
-| cdeuterogattii_CBS7750_mic_25 | float | high | Classification score (rank) for bioactivity in Cryptococcus deuterogattii CBS7750 |
-| cglabrata_ATCC90030_mic_25 | float | high | Classification score (rank) for bioactivity in Candida glabrata ATCC90030 |
-| cneoformans_H99_inhib_50 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
-| cneoformans_H99_mic_25 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
-| ecoli_ATCC25922_inhib_50 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
-| ecoli_ATCC25922_mic_25 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
+| abaumannii_atcc19606_inhib_50 | float | high | Classification score (rank) for bioactivity in Acinetobacter baumannii ATCC19606 |
+| abaumannii_atcc19606_mic_25 | float | high | Classification score (rank) for bioactivity in Acinetobacter baumannii ATCC19606 |
+| calbicans_atcc90028_inhib_50 | float | high | Classification score (rank) for bioactivity in Candida albicans ATCC90028 |
+| calbicans_atcc90028_mic_25 | float | high | Classification score (rank) for bioactivity in Candida albicans ATCC90028 |
+| cdeuterogattii_cbs7750_mic_25 | float | high | Classification score (rank) for bioactivity in Cryptococcus deuterogattii CBS7750 |
+| cglabrata_atcc90030_mic_25 | float | high | Classification score (rank) for bioactivity in Candida glabrata ATCC90030 |
+| cneoformans_h99_inhib_50 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
+| cneoformans_h99_mic_25 | float | high | Classification score (rank) for bioactivity in Cryptococcus neoformans H99 |
+| ecoli_atcc25922_inhib_50 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
+| ecoli_atcc25922_mic_25 | float | high | Classification score (rank) for bioactivity in Escherichia coli ATCC25922 |
 
 _10 of 22 columns are shown_
 ### Source and Deployment
