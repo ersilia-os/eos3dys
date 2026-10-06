@@ -2,12 +2,13 @@ Identifier: eos3dys
 Slug: coadd-antimicrobial-activity
 Status: Ready
 Title: CoADD antimicrobial prediction
-Description: Scores compounds across 22 antimicrobial and cytotoxicity endpoints built
-  from the Community for Open Antimicrobial Drug Discovery screening collection. Ersilia
-  trained a separate model for every organism and strain with at least 100 measured
-  compounds, plus cytotoxicity readouts, binarising activity at 50% growth inhibition
-  for single-point assays and 25 uM for dose-response. Models reached an AUROC
-  between 0.64 and 0.97 in 5-fold cross-validation using the LazyQSAR package.
+Description: Scores compounds across 22 antimicrobial and cytotoxicity endpoints
+  built from the Community for Open Antimicrobial Drug Discovery screening 
+  collection. Ersilia trained a separate model for every organism and strain 
+  with at least 100 measured compounds, plus cytotoxicity readouts, binarising 
+  activity at 50% growth inhibition for single-point assays and 25 uM for 
+  dose-response. Models reached an AUROC between 0.64 and 0.97 in 5-fold 
+  cross-validation using the LazyQSAR package.
 Deployment:
   - Local
 Source: Local
@@ -21,8 +22,8 @@ Output:
   - Score
 Output Dimension: 22
 Output Consistency: Fixed
-Interpretation: Rank scores for pathogen inhibition and cytotoxicity, where higher
-  values indicate stronger predicted activity.
+Interpretation: Rank scores for pathogen inhibition and cytotoxicity, where 
+  higher values indicate stronger predicted activity.
 Tag:
   - Antimicrobial activity
   - ESKAPE
