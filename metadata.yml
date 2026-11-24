@@ -46,7 +46,7 @@ Source Code: https://github.com/ersilia-os/coadd-binary-tasks
 License: GPL-3.0-only
 Contributor: GemmaTuron
 Incorporation Date: '2026-05-19'
-Last Packaging Date: '2026-10-06'
+Last Packaging Date: '2026-11-24'
 Release: v2.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3dys.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3dys
@@ -56,9 +56,9 @@ Docker Architecture:
 Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos3dys_v2.sif
 Model Size: 865.0
 Environment Size: 3609.0
-Image Size: 4848.35
-Computational Performance 1: 68.9
-Computational Performance 2: 61.14
-Computational Performance 3: 64.56
-Computational Performance 4: 467.16
+Image Size: 1564.45
+Computational Performance 1: 67.07
+Computational Performance 2: 57.83
+Computational Performance 3: 61.64
+Computational Performance 4: 449.08
 Computational Performance 5: -1.0
