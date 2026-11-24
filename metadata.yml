@@ -53,7 +53,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos3dys
 Docker Architecture:
   - AMD64
   - ARM64
-Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos3dys_v2.sif
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos3dys_v3.sif
 Model Size: 865.0
 Environment Size: 3609.0
 Image Size: 1564.45
